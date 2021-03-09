@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+			/*var x=parseInt(prompt("Entrez x:","Saisir un entier ici")); 
+			var y=parseInt(prompt("Entrez y:","Saisir un entier ici"))
+
+			if(x>y){
+
+				alert("le max "+x);
+
+			}else
+			{
+				alert("le max "+y);
+			}*/
+//------------------------------
+			/*var prix=parseInt(prompt("Entrez prix:","Saisir un entier ici")); 
+			var ticket =parseInt(prompt("Entrez ticket:","Saisir un entier ici"));
+
+switch(ticket) {
+  case 1:
+    document.write("le prix:"+prix+0.45);
+    break;
+  case 2:
+    document.write("le prix:"+prix+0.25);
+    break;
+  default:
+ document.write("le prix:"+prix);}
+}*/
+//-------------------------------
+		/*	var x=parseInt(prompt("Entrez x:","Saisir un entier ici")); 
+			var y =parseInt(prompt("Entrez y:","Saisir un entier ici"));
+
+				
+				if(x<y){
+					for (var i=x;i<=y;i++) {
+					document.write(i+";");
+					}
+				}
+				else{
+					for (var i=y;i<=x;i++) {
+					document.write(i+";");
+					}
+				}			
+			*/
+
+
+			/*	var x=parseInt(prompt("Entrez x:","Saisir un entier ici")); 
+			var y =parseInt(prompt("Entrez y:","Saisir un entier ici"));
+
+				
+				if(x<y){
+					for (var i=x;i<=y;i++) {
+						if(i%2==0){
+					document.write(i+";");
+					}}
+				}
+				else{
+					for (var i=y;i<=x;i++) {
+						if(i%2==0){
+					document.write(i+";");}
+					}
+				}	*/		
+			
+			/*	var A=parseInt(prompt("Entrez A:","Saisir un entier ici")); 
+			var B =parseInt(prompt("Entrez B:","Saisir un entier ici"));
+
+				var puissance=0;
+			
+					for (var i=A;i<=B;i++) {
+						puissance= puissance+A*A;
+					
+					}
+				document.write(puissance+";");
+					*/
+					
+					
+/*
+	var A=parseInt(prompt("Entrez A:","Saisir un entier ici")); 
+			var B =parseInt(prompt("Entrez B:","Saisir un entier ici"));
+
+				var puissance=0;
+			
+					for (var i=A;i<=B;i++) {
+						puissance= puissance+A*A;
+					
+					}
+				document.write(puissance+";");
+				
+					*/
+
+			/*var A=parseInt(prompt("Entrez A:","Saisir un entier ici")); 
+			var B =parseInt(prompt("Entrez B:","Saisir un entier ici"));
+			var C=parseInt(prompt("Entrez C:","Saisir un entier ici")); 
+			var D =parseInt(prompt("Entrez D:","Saisir un entier ici"));
+			var into = new Array(A,B,C,D);
+			into.join(", ");
+			into.sort();
+			document.write(into[0]);
+		*/
+
+			var a=parseInt(prompt("Entrez A:","Saisir un entier ici")); 
+			var b =parseInt(prompt("Entrez B:","Saisir un entier ici"));
+			var c=parseInt(prompt("Entrez C:","Saisir un entier ici")); 
+			
+			var x=0;
+
+				if(a==0 && b!=0 && c!=0){
+
+					document.write("x="+ (-c)/b);
+				}
+				else  if( a==0 && b==0|| a==0 && b==0 && c==0){
+
+					document.write("solution £{R}");
+				}
+				else {
+
+						var s=Math.pow(b,2)-4*a*c;
+						if(s<0){
+							document.write("pas solution");
+						}if(s==0){
+							document.write("x="+(-b/(2*a)));
+						}if(s>0){
+							var x1=(-b-Math.sqrt(s))/(2*a);
+							var x2=(-b+Math.sqrt(s)/(2*a));
+							document.write("x1="+x1);
+							document.write("x2="+x2);
+						}
+
+
+			
+				}
+
+		</script>
+					
+
+
+
+	</script>
+
+</head>
+<body>
+	 
+
+
+</body>
+</html>
